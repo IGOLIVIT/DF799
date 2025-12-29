@@ -29,7 +29,7 @@ struct HomeView: View {
     ]
     
     var body: some View {
-        NavigationStack {
+        NavigationView {
             ZStack {
                 // Background
                 HomeBackground()
@@ -76,6 +76,7 @@ struct HomeView: View {
                 }
             }
         }
+        .navigationViewStyle(.stack)
         .onAppear {
             withAnimation(.easeOut(duration: 0.6).delay(0.2)) {
                 cardsAppeared = true

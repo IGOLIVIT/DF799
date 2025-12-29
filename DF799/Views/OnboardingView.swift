@@ -205,8 +205,8 @@ struct OnboardingSlideView: View {
             Spacer()
             Spacer()
         }
-        .onChange(of: isActive) { _, active in
-            if active {
+        .onChange(of: isActive) { newValue in
+            if newValue {
                 animateIn()
             } else {
                 resetAnimation()

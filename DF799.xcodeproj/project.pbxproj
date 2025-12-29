@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7811155A2F02D2B2001135AE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781115592F02D2B2001135AE /* Launch Screen.storyboard */; };
-		7811155C2F02D2D0001135AE /* Launch Screen 2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7811155B2F02D2D0001135AE /* Launch Screen 2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +32,12 @@
 		781114B72F02A313001135AE /* DF799Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DF799Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		781114C12F02A313001135AE /* DF799UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DF799UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		781115592F02D2B2001135AE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		7811155B2F02D2D0001135AE /* Launch Screen 2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen 2.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		781114AC2F02A311001135AE /* DF799 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DF799;
-			sourceTree = "<group>";
-		};
-		781114BA2F02A313001135AE /* DF799Tests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DF799Tests;
-			sourceTree = "<group>";
-		};
-		781114C42F02A313001135AE /* DF799UITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DF799UITests;
-			sourceTree = "<group>";
-		};
+		781114AC2F02A311001135AE /* DF799 */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = DF799; sourceTree = "<group>"; };
+		781114BA2F02A313001135AE /* DF799Tests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = DF799Tests; sourceTree = "<group>"; };
+		781114C42F02A313001135AE /* DF799UITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = DF799UITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				781115592F02D2B2001135AE /* Launch Screen.storyboard */,
-				7811155B2F02D2D0001135AE /* Launch Screen 2.storyboard */,
 				781114AC2F02A311001135AE /* DF799 */,
 				781114BA2F02A313001135AE /* DF799Tests */,
 				781114C42F02A313001135AE /* DF799UITests */,
@@ -179,23 +164,24 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2620;
-				LastUpgradeCheck = 2620;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					781114A92F02A311001135AE = {
-						CreatedOnToolsVersion = 26.2;
+						CreatedOnToolsVersion = 15.0;
 					};
 					781114B62F02A313001135AE = {
-						CreatedOnToolsVersion = 26.2;
+						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 781114A92F02A311001135AE;
 					};
 					781114C02F02A313001135AE = {
-						CreatedOnToolsVersion = 26.2;
+						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 781114A92F02A311001135AE;
 					};
 				};
 			};
 			buildConfigurationList = 781114A52F02A311001135AE /* Build configuration list for PBXProject "DF799" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -204,7 +190,6 @@
 			);
 			mainGroup = 781114A12F02A311001135AE;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 781114AB2F02A311001135AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -222,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7811155A2F02D2B2001135AE /* Launch Screen.storyboard in Resources */,
-				7811155C2F02D2D0001135AE /* Launch Screen 2.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +399,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -428,10 +412,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -453,7 +434,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,10 +447,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -487,9 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.DF799Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DF799.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DF799";
@@ -508,9 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.DF799Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DF799.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DF799";
@@ -527,9 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.DF799UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DF799;
@@ -546,9 +518,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.DF799UITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = DF799;

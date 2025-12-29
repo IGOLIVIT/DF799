@@ -17,6 +17,7 @@ struct PathTilesGameView: View {
     @State private var playerSequence: [Int] = []
     @State private var showingSequence = false
     @State private var currentShowIndex = 0
+    @State private var highlightedTileId: Int? = nil
     @State private var timeRemaining: Double = 0
     @State private var score = 0
     @State private var totalAccuracy: Double = 0
@@ -100,6 +101,7 @@ struct PathTilesGameView: View {
             tiles = []
             correctSequence = []
             playerSequence = []
+            highlightedTileId = nil
             score = 0
             totalAccuracy = 0
             attemptsCount = 0
@@ -294,7 +296,7 @@ struct PathTilesGameView: View {
                 TileView(
                     tile: tile,
                     size: tileSize,
-                    isHighlighted: showingSequence && currentShowIndex > 0 && correctSequence.prefix(currentShowIndex).last == tile.id,
+                    isHighlighted: highlightedTileId == tile.id,
                     isSelected: playerSequence.contains(tile.id),
                     interactive: interactive && !showingSequence
                 ) {
@@ -528,9 +530,24 @@ struct PathTilesGameView: View {
     
     private func showSequence() {
         currentShowIndex = 0
+        highlightedTileId = nil
+        
+        // Duration each tile stays highlighted
+        let highlightDuration: Double = {
+            switch difficulty {
+            case .easy: return 0.6
+            case .medium: return 0.5
+            case .hard: return 0.35
+            }
+        }()
+        
+        // Pause between tiles
+        let pauseDuration: Double = 0.2
         
         func showNext() {
             guard currentShowIndex < correctSequence.count else {
+                // All tiles shown, wait a moment then start playing
+                highlightedTileId = nil
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                     withAnimation {
                         gameState = .playing
@@ -540,23 +557,28 @@ struct PathTilesGameView: View {
                 return
             }
             
-            withAnimation(.easeInOut(duration: 0.3)) {
-                currentShowIndex += 1
+            // Highlight the current tile
+            let tileId = correctSequence[currentShowIndex]
+            withAnimation(.easeInOut(duration: 0.15)) {
+                highlightedTileId = tileId
             }
             
-            let delay: Double = {
-                switch difficulty {
-                case .easy: return 0.8
-                case .medium: return 0.6
-                case .hard: return 0.4
+            // After highlight duration, turn off and move to next
+            DispatchQueue.main.asyncAfter(deadline: .now() + highlightDuration) {
+                withAnimation(.easeInOut(duration: 0.15)) {
+                    highlightedTileId = nil
                 }
-            }()
-            
-            DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
-                showNext()
+                
+                currentShowIndex += 1
+                
+                // After pause, show next tile
+                DispatchQueue.main.asyncAfter(deadline: .now() + pauseDuration) {
+                    showNext()
+                }
             }
         }
         
+        // Start showing sequence after initial delay
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
             showNext()
         }
@@ -632,6 +654,7 @@ struct PathTilesGameView: View {
         isPaused = false
         showVictory = false
         showDefeat = false
+        highlightedTileId = nil
         currentLevel = 1
         score = 0
         totalAccuracy = 0
@@ -684,34 +707,42 @@ struct TileView: View {
                 onTap()
             }
         }) {
-            RoundedRectangle(cornerRadius: size / 5)
-                .fill(
-                    LinearGradient(
-                        colors: [
-                            tile.color,
-                            tile.color.opacity(0.7)
-                        ],
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    )
-                )
-                .frame(width: size, height: size)
-                .overlay(
+            ZStack {
+                // Outer glow when highlighted
+                if isHighlighted {
                     RoundedRectangle(cornerRadius: size / 5)
-                        .stroke(Color.white, lineWidth: isHighlighted || isSelected ? 4 : 0)
-                )
-                .shadow(
-                    color: isHighlighted ? Color.white.opacity(0.8) : tile.color.opacity(0.3),
-                    radius: isHighlighted ? 12 : 4,
-                    x: 0,
-                    y: isHighlighted ? 0 : 4
-                )
-                .scaleEffect(isHighlighted ? 1.1 : (isPressed ? 0.95 : 1.0))
-                .opacity(isSelected ? 0.5 : 1.0)
+                        .fill(Color.white)
+                        .frame(width: size + 12, height: size + 12)
+                        .blur(radius: 8)
+                        .opacity(0.8)
+                }
+                
+                RoundedRectangle(cornerRadius: size / 5)
+                    .fill(
+                        LinearGradient(
+                            colors: isHighlighted ? [.white, tile.color] : [tile.color, tile.color.opacity(0.7)],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        )
+                    )
+                    .frame(width: size, height: size)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: size / 5)
+                            .stroke(Color.white, lineWidth: isHighlighted ? 5 : (isSelected ? 3 : 0))
+                    )
+                    .shadow(
+                        color: isHighlighted ? Color.white : tile.color.opacity(0.4),
+                        radius: isHighlighted ? 15 : 4,
+                        x: 0,
+                        y: isHighlighted ? 0 : 4
+                    )
+            }
+            .scaleEffect(isHighlighted ? 1.15 : (isPressed ? 0.95 : 1.0))
+            .opacity(isSelected ? 0.5 : 1.0)
         }
         .buttonStyle(PlainButtonStyle())
         .disabled(!interactive || isSelected)
-        .animation(.spring(response: 0.3), value: isHighlighted)
+        .animation(.spring(response: 0.2, dampingFraction: 0.6), value: isHighlighted)
         .animation(.spring(response: 0.2), value: isPressed)
     }
 }
