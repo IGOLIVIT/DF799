@@ -1,0 +1,119 @@
+{
+  "" : {
+    "diagnostics" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/DF799-primary.dia",
+    "emit-module-dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/DF799-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/DF799-primary-emit-module.dia",
+    "pch" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/DF799-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/DF799-primary.swiftdeps"
+  },
+  "/Users/igor/Documents/Applications/DF799/DF799/ContentView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DF799/DF799/DF799App.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/DF799App.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/DF799App.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/DF799App.dia",
+    "index-unit-output-path" : "/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/DF799App.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/DF799App.bc",
+    "object" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/DF799App.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/DF799App.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/DF799App~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DF799/DF799/Games/PathTilesGameView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/PathTilesGameView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/PathTilesGameView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/PathTilesGameView.dia",
+    "index-unit-output-path" : "/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/PathTilesGameView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/PathTilesGameView.bc",
+    "object" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/PathTilesGameView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/PathTilesGameView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/PathTilesGameView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DF799/DF799/Games/RhythmStepsGameView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/RhythmStepsGameView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/RhythmStepsGameView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/RhythmStepsGameView.dia",
+    "index-unit-output-path" : "/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/RhythmStepsGameView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/RhythmStepsGameView.bc",
+    "object" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/RhythmStepsGameView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/RhythmStepsGameView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/RhythmStepsGameView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DF799/DF799/Models/GameManager.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameManager.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameManager.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameManager.dia",
+    "index-unit-output-path" : "/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameManager.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameManager.bc",
+    "object" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameManager.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameManager.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameManager~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DF799/DF799/Models/GameModels.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameModels.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameModels.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameModels.dia",
+    "index-unit-output-path" : "/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameModels.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameModels.bc",
+    "object" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameModels.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameModels.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GameModels~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DF799/DF799/Views/HomeView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/HomeView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/HomeView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/HomeView.dia",
+    "index-unit-output-path" : "/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/HomeView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/HomeView.bc",
+    "object" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/HomeView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/HomeView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/HomeView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DF799/DF799/Views/OnboardingView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/OnboardingView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/OnboardingView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/OnboardingView.dia",
+    "index-unit-output-path" : "/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/OnboardingView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/OnboardingView.bc",
+    "object" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/OnboardingView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/OnboardingView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/OnboardingView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DF799/DF799/Views/ProgressView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ProgressView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ProgressView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ProgressView.dia",
+    "index-unit-output-path" : "/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ProgressView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ProgressView.bc",
+    "object" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ProgressView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ProgressView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/ProgressView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DF799/DF799/Views/SettingsView.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/igor/Documents/Applications/DF799/build/Build/Intermediates.noindex/DF799.build/Debug-iphoneos/DF799.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

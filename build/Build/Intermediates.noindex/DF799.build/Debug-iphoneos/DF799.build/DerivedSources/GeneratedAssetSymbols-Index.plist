@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/igor/Documents/Applications/DF799/DF799/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameAccentOrange</string>
+			<key>relativePath</key>
+			<string>./AccentOrange.colorset</string>
+			<key>swiftSymbol</key>
+			<string>accentOrange</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/igor/Documents/Applications/DF799/DF799/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameDeepGreen</string>
+			<key>relativePath</key>
+			<string>./DeepGreen.colorset</string>
+			<key>swiftSymbol</key>
+			<string>deepGreen</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/igor/Documents/Applications/DF799/DF799/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNamePrimaryYellow</string>
+			<key>relativePath</key>
+			<string>./PrimaryYellow.colorset</string>
+			<key>swiftSymbol</key>
+			<string>primaryYellow</string>
+		</dict>
+	</array>
+	<key>images</key>
+	<array/>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>12</integer>
+	<key>logs</key>
+	<dict>
+		<key>9EBD4D90-AF01-4691-A7CC-201FEB094688</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9EBD4D90-AF01-4691-A7CC-201FEB094688.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>1</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DF799 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DF799</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project DF799 with scheme DF799</string>
+			<key>timeStartedRecording</key>
+			<real>788706149.8937</real>
+			<key>timeStoppedRecording</key>
+			<real>788706164.00130296</real>
+			<key>title</key>
+			<string>Building project DF799 with scheme DF799</string>
+			<key>uniqueIdentifier</key>
+			<string>9EBD4D90-AF01-4691-A7CC-201FEB094688</string>
+		</dict>
+		<key>D69CAF65-3C83-4A1B-B7FA-5FA6B0B2ED96</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D69CAF65-3C83-4A1B-B7FA-5FA6B0B2ED96.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DF799 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DF799</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project DF799 with scheme DF799</string>
+			<key>timeStartedRecording</key>
+			<real>788706668.134166</real>
+			<key>timeStoppedRecording</key>
+			<real>788706671.94141495</real>
+			<key>title</key>
+			<string>Building project DF799 with scheme DF799</string>
+			<key>uniqueIdentifier</key>
+			<string>D69CAF65-3C83-4A1B-B7FA-5FA6B0B2ED96</string>
+		</dict>
+		<key>D6ADD95C-21F0-441C-B523-FD21C785306C</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D6ADD95C-21F0-441C-B523-FD21C785306C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>DF799 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>DF799</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project DF799 with scheme DF799</string>
+			<key>timeStartedRecording</key>
+			<real>788706614.78227603</real>
+			<key>timeStoppedRecording</key>
+			<real>788706622.82801199</real>
+			<key>title</key>
+			<string>Building project DF799 with scheme DF799</string>
+			<key>uniqueIdentifier</key>
+			<string>D6ADD95C-21F0-441C-B523-FD21C785306C</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
